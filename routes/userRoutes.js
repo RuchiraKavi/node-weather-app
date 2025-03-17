@@ -13,7 +13,6 @@ router.post('/add', async (req, res) => {
         res.status(500).json({ error: "Error adding user" });
     }
 });
-
 module.exports = router;
 
 router.put('/update-location', async (req, res) => {
